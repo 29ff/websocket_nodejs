@@ -1,0 +1,28 @@
+{
+  "name": "websocket_nodejs",
+  "version": "1.0.0",
+  "description": "Create a chat application with Node.js and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/29ff/websocket_nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/29ff/websocket_nodejs/issues"
+  },
+  "homepage": "https://github.com/29ff/websocket_nodejs#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
